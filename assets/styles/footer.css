@@ -1,0 +1,105 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFD;
+    margin: 0 -132px 0 -132px;
+    padding: 80px 132px 0 132px;
+    position: relative;
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 276px;
+    height: 108px;
+    position: relative;
+}
+
+.footer-container>p {
+    margin-top: 4px;
+    font-size: 20px;
+    color: #637899;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .04em;
+}
+
+.footer-container-low {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #637899;
+}
+
+.footer-container-low>a {
+    color: #637899;
+}
+
+.footer-main-container {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+
+    @media (max-width:767px) {
+        flex-direction: column;
+    }
+}
+
+.socials {
+    margin-left: 36px;
+}
+
+.socials>p:hover {
+    cursor: pointer;
+}
+
+.socials>p:active {
+    color: #698cc5;
+}
+
+.fb-ico {
+    position: absolute;
+    left: 0px;
+}
+
+.inst-ico {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.designer {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #637899;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 80px;
+
+    @media (max-width:767px) {
+        margin-bottom: 40px;
+    }
+}
+
+.footer-WS-logo {
+    position: absolute;
+    bottom: 80px;
+    right: 132px;
+
+    @media (max-width:767px) {
+        position: relative;
+        width: 77px;
+        bottom: 0;
+        right: 0;
+        align-self: flex-end;
+    }
+}
+
+

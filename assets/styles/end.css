@@ -1,0 +1,159 @@
+.content-zone-fifth-page {
+    display: flex;
+    margin: 144px -132px 0px -132px;
+    padding: 144px 132px 0px 132px;
+    min-height: 576px;
+    background-color: #F9FAFD;
+    position: relative;
+
+    @media (max-width:767px) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 96px;
+    }
+}
+
+.footer-background {
+    position: absolute;
+    bottom: -44px;
+    right: 9%;
+    width: 47%;
+
+    @media (max-width:979px) {
+        width: 40%;
+        bottom: 44px;
+    }
+
+    @media (max-width:767px) {
+        position: relative;
+        padding-top: 32px;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+.fifth-page-test {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media (max-width:767px) {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.fifth-page-test>*:nth-child(1) {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    @media (max-width:979px) {
+        font-size: 32px;
+    }
+}
+
+.fifth-page-test>*:nth-child(2) {
+    color: #637899;
+    font-size: 20px;
+    font-weight: 400;
+
+    @media (max-width:979px) {
+        max-width: 348px;
+    }
+
+    @media (max-width:979px) {
+        font-size: 18px;
+    }
+}
+
+.fifth-page-test>button {
+    margin-top: 30px;
+
+    @media (max-width:979px) {
+        width: 348px;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFD;
+    margin: 0 -132px 0 -132px;
+    padding: 80px 132px 0 132px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 276px;
+    height: 108px;
+    position: relative;
+}
+
+.footer-container>p {
+    margin-top: 4px;
+    font-size: 20px;
+    color: #637899;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .04em;
+}
+
+.footer-container-low {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #637899;
+}
+
+.footer-container-low>a {
+    color: #637899;
+}
+
+.footer-main-container {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+}
+
+.socials {
+    margin-left: 36px;
+}
+
+.fb-ico {
+    position: absolute;
+    left: 0px;
+}
+
+.inst-ico {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.designer {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #637899;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 80px;
+}
+
+.footer-WS-logo {
+    position: absolute;
+    bottom: 80px;
+    right: 132px;
+}
+
+

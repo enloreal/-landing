@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Futura PT', sans-serif;
+    
+}
+
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.content-zone {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 32px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    @media (max-width:979px){
+        background-size: contain;
+        background-position: center 270px;
+        background-image: url(/assets/images/other/background-image.svg);
+        background-repeat: no-repeat;   
+    }
+}
+
+.banner {
+	animation: banner 1.5s ease-out both;
+}
+
+@keyframes banner {
+    0% {
+      transform: translateY(-1000px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+.content-zone-first-page {
+	animation: content 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes content {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
