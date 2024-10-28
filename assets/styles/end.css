@@ -5,6 +5,7 @@
     min-height: 576px;
     background-color: #F9FAFD;
     position: relative;
+    
 
     @media (max-width:767px) {
         flex-direction: column;
@@ -12,6 +13,8 @@
         margin-top: 96px;
     }
 }
+
+
 
 .footer-background {
     position: absolute;
@@ -74,6 +77,10 @@
 
     @media (max-width:979px) {
         width: 348px;
+    }
+
+    @media (max-width: 767px) {
+        width: 110%;
     }
 }
 
